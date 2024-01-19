@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.header_lift {
+    position: relative;
+    bottom: 10px;
+}
+
+.header_drop {
+    position: relative;
+    top: 10px;
+}
+
+.padding_8{
+    padding: 0 8% 20px;
+}
+
+.txt_align_center {
+    text-align: center;
+}
+
+.footer {
+    padding-top: 20px;
+}
+
+.footer_ele1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.footer_ele2 {
+    display: flex;
+    justify-content: right;
+    padding: 40px 0 20px 0;
+}
+
+.footer_ele2 > p {
+    width: 70%;
+    font-family: flood std;
+    font-size: 2.5rem;
+    text-align: right;
+}

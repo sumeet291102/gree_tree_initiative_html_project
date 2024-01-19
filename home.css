@@ -1,0 +1,166 @@
+.header > * {
+    padding-top: 20px;
+}
+
+.header_ele1 {
+    display: flex;
+}
+
+.header_ele2 > button {
+    /* display: flex;
+    justify-content: center;
+    padding-top: 5%; */
+    width: 100%;
+}
+
+.section1 {
+    padding-bottom: 20px;
+}
+
+.section1 > p {
+    font-size: 2.4rem;
+    font-family: flood std;
+    padding-top: 20px;
+    width: 60%;
+}
+
+.section1_ele1 {
+    display: flex;
+    justify-content: left;
+}
+
+.section1_ele2 {
+    margin-top: 7rem;
+    /* margin-bottom: 40px; */
+    background-color: aqua;
+
+}
+
+
+.section1 {
+    background: url('./resources/home/annie-spratt-135307-unsplash.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    /* background-color: ; */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* backdrop-filter: contrast(150%); */
+    
+}
+
+.section2_body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section3_ele {
+    padding: 0 8%;
+    margin-top: 3rem;
+    background-color: aqua;
+}
+
+.section3_ele > .header_lift {
+    bottom: 20px;
+}
+
+.section3_ele > button {
+    margin: 20px 0;
+}
+
+.section4 {
+    background: url('./resources/home/did-you-know-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 10%; */
+}
+
+.section4 > button {
+    margin: 20px 0 40px 0;
+}
+
+.section4 > .header_drop {
+    text-align: center;
+}
+.section4_header {
+    font-family: flood std;
+    font-size: 2.5rem;
+    width: 90%;
+    padding-top: 40px;
+}
+
+.section4_card {
+    background-color: aqua;
+    /* display: flex; */
+    margin-bottom: 10px;
+    padding: 0 8% 20px 8%;
+}
+
+.section4_card_ele {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.section4_card_ele_img {
+    display: flex;
+    width: 20px;
+    justify-content: center;
+}
+
+.bird {
+    width: 16px;
+    height: 13px;
+}
+
+.fb {
+    width: 8px;
+    height: 16px;
+}
+
+.section5 > p {
+    padding-top: 20px;
+    /* padding: 20px 20px; */
+}
+
+.section5_body {
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+.section5 > button {
+    margin: 20px 0;
+}
+
+.section6 {
+    background-color: aqua;
+}
+
+.section6 > p {
+    font-family: flood std;
+    font-size: 2.4rem;
+    padding-top: 40px;
+}
+
+.section6_ele > * {
+    margin: 20px 0;
+}
+
+.section6_ele > button {
+    margin-top: 0;
+}
+
+.section7 {
+    background-color: aquamarine;
+}
+
+.section7_head  {
+    padding: 20px 0;
+}
+
+.section7_body {
+    display: flex;
+    /* padding-bottom: 20px; */
+}
+

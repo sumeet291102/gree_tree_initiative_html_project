@@ -1,0 +1,79 @@
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    /* border: solid black 0 0 1px 0; */
+    border-bottom: solid black 2px;
+    outline: none;
+}
+
+label {
+    font-size: 0.7rem;
+}
+
+header > p {
+    padding: 20px 8%;
+}
+
+.info_form {
+    display: grid;
+    grid-template-areas:
+    "a a b b"
+    "c c c c"
+    "d d e f"
+    "g g g g";
+    gap: 1rem;
+}
+
+
+.info_form > div:nth-child(1) {
+    grid-area: a;
+}
+
+.info_form > div:nth-child(2) {
+    grid-area: b;
+}
+
+.info_form > div:nth-child(3) {
+    grid-area: c;
+}
+
+.info_form > div:nth-child(4) {
+    grid-area: d;
+}
+
+.info_form > div:nth-child(7) {
+    grid-area: g;
+}
+
+.pay_form {
+    display: grid;
+    grid-template-areas:
+    "a a a a"
+    "b b c c";
+    gap: 1rem;
+}
+
+.pay_form > div:nth-child(2) > div {
+    display: flex;
+    align-items: flex-end;
+    /* height: 1fr;
+    width: 1fr; */
+    gap: 1rem;
+}
+
+.pay_form > div:nth-child(1) {
+    grid-area: a;
+}
+
+.pay_form > div:nth-child(2) {
+    grid-area: b;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.pay_form > div:nth-child(3) {
+    grid-area: c;
+}
